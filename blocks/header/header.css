@@ -5,7 +5,7 @@
     margin: 0px auto;
     position: relative;
     zoom: 1;
-    font-size: 12px;
+    
 }
 
 .header {
@@ -23,6 +23,7 @@
     display: flex;
     flex-wrap: nowrap;
     position: relative;
+    font-size: 12px;
 }
 
 
