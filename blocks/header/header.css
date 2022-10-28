@@ -1,4 +1,4 @@
-header {
+.header-wrapper {
     display: block;
     background: #fff;
     max-width: 100vw;
@@ -8,7 +8,7 @@ header {
     font-size: 12px;
 }
 
-header .header {
+.header {
   padding-top: 40px;
     position: relative;
     min-height: 60px;
@@ -17,7 +17,7 @@ header .header {
     width: 1176px;
 }
 
-header .header > div {
+.header > div {
   margin-top: 16px;
     padding-left: 16px;
     display: flex;
@@ -26,43 +26,43 @@ header .header > div {
 }
 
 
-header .logo a {
+.header .logo a {
     display: flex;
     padding: 0; 
 }
 
-header .logo a picture {
+.header .logo a picture {
     width: 150px;
     height: auto;
 }
 
-header .logo a picture img {
+.header .logo a picture img {
     width: 100%;
     height: 100%;
 }
 
-header .main-navigation {
+.header .main-navigation {
     padding: 0 16px;
     margin: 0 auto;
 
 }
 
-header a {
-    padding: 12px 0; 
+.header a {
+    padding: 24px 0; 
     text-transform: uppercase;
 }
 
-header ul {
+.header ul {
     display: flex;
 }
 
-header ul li {
+.header ul li {
     list-style: none;
     margin: 0 8px;
     display: flex
 }
 
-header .main-navigation ul li ul {
+.header .main-navigation ul li ul {
     display: none;
 }
 
