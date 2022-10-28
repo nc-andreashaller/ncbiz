@@ -39,9 +39,18 @@ header .logo a picture img {
     height: 100%;
 }
 
-header .main-navigation ul li {
-    list-style: none;
+header .main-navigation {
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+header .main-navigation ul, header .language-navigation ul {
     display: flex;
+}
+
+header .main-navigation ul li, header .language-navigation ul li {
+    list-style: none;
+    margin: 0 8px;
 }
 
 header .main-navigation ul li ul {
