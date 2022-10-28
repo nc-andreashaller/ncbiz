@@ -5,6 +5,7 @@ header {
     margin: 0px calc((100vw - 1176px) / -2);
     position: relative;
     zoom: 1;
+    font-size: 12px;
 }
 
 header .header {
@@ -27,6 +28,7 @@ header .header > div {
 
 header .logo a {
     display: flex;
+    padding: 0; 
 }
 
 header .logo a picture {
@@ -42,7 +44,7 @@ header .logo a picture img {
 header .main-navigation {
     padding: 0 16px;
     margin: 0 auto;
-    font-size: 12px;
+
 }
 
 header a {
@@ -57,6 +59,7 @@ header ul {
 header ul li {
     list-style: none;
     margin: 0 8px;
+    display: flex
 }
 
 header .main-navigation ul li ul {
