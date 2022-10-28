@@ -8,6 +8,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border-image: initial;
     font: inherit;
     text-decoration: none;
+}
+
+body {
     font-family: Gellix,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
     color: #2e308e;
+    font-size: 16px;
 }
+
