@@ -42,7 +42,14 @@ header .logo a picture img {
 header .main-navigation {
     padding: 0 16px;
     margin: 0 auto;
+    font-size: 12px;
 }
+
+header .main-navigation a {
+    padding: 12px 0; 
+    text-transform: uppercase;
+}
+
 
 header .main-navigation ul, header .language-navigation ul {
     display: flex;
