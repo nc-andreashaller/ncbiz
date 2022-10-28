@@ -39,7 +39,7 @@ header .logo a picture img {
     height: 100%;
 }
 
-header .main-navigation ul li ul {
+header .main-navigation ul li {
     list-style: none;
     display: flex;
 }
